@@ -1,5 +1,7 @@
-local configs = require 'nvim_lsp/configs'
-local util = require 'nvim_lsp/util'
+local configs = require 'lspconfig/configs'
+local util = require 'lspconfig/util'
+-- local configs = require 'nvim_lsp/configs'
+-- local util = require 'nvim_lsp/util'
 
 local server_name = 'svelte'
 local bin_name = 'svelteserver'

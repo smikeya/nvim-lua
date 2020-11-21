@@ -1,7 +1,8 @@
 -- TODO: find out why some plugins doesn't apply its config using this method
 local plug_directory = '~/.local/share/nvim/site/autoload/plug.vim'
 local plug_url = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-local plugins_directory = '~/.local/share/nvim/plugged'
+local plugins_directory = '~/.config/nvimLua/plugged'
+-- local plugins_directory = '~/.local/share/nvim/plugged'
 local fn = vim.fn
 local cmd = vim.cmd
 local call = vim.call
